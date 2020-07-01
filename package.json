@@ -1,0 +1,22 @@
+{
+  "name": "ezr-mini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:weapp": "cd source && yarn dev:weapp",
+    "build:weapp": "cd source && yarn build:weapp",
+    "copy": "cd source && yarn copy",
+    "build": "yarn build:weapp && yarn copy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@192.168.12.190:fe-mobile/ezr-mini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ezrtaro-cli": "^1.0.0"
+  }
+}
